@@ -1,5 +1,5 @@
 .main_container {
-  height: 70vh;
+  min-height: 70vh;
   width: 85vw;
   margin: 0 auto;
 }

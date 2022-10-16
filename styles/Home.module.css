@@ -1,6 +1,37 @@
-.container {
+.home_container {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.home_container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.home_container h1 span {
+  color: #ffbb33;
+  padding: 0 0.2rem;
+  background-color: #222;
+}
+
+.home_container p {
+  margin-bottom: 1.5rem;
+  color: #7b7b7b;
+}
+
+.home_container a {
+  background-color: #222;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.home_container a:hover {
+  background-color: #ffbb33;
+  color: #222;
+  transition: 0.2s;
+  font-weight: bold;
 }
