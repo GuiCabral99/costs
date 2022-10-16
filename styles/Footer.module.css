@@ -1,0 +1,34 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer li {
+  margin: 0 1rem;
+}
+
+.footer li svg:hover {
+  color: #ffbb33;
+}
+
+.footer li svg {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.footer p {
+  margin-top: 1.5rem;
+}
+
+.footer p span {
+  font-weight: bold;
+  color: #ffbb33;
+}
