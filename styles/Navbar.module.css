@@ -8,7 +8,7 @@
 }
 
 .navbar .content {
-  width: 85vw;
+  max-width: 85vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,6 +16,9 @@
 }
 
 .navbar ul {
+  margin-left: 1rem;
+  margin-right: -1rem;
+
   display: flex;
 }
 
@@ -23,10 +26,6 @@
   display: flex;
   padding: 1rem;
   color: #fff;
-}
-
-.navbar ul li:last-child {
-  margin-right: -1rem;
 }
 
 .navbar ul li a:hover {
