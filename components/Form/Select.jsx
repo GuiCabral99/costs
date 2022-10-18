@@ -1,6 +1,6 @@
 import styles from "../../styles/Form/Select.module.css";
 
-export default function Select({ name, value, text, labelText }) {
+export default function Select({ name, value, text, labelText, options }) {
   return (
     <div className={styles.select_container}>
       <label htmlFor={name}>{labelText}</label>
@@ -8,7 +8,12 @@ export default function Select({ name, value, text, labelText }) {
         <option disabled selected>
           Selecione a categoria
         </option>
-        <option value={value}>{text}</option>
+
+        {options.map((option) => (
+          <option value={option.id} key={option.id}>
+            {option.name}
+          </option>
+        ))}
       </select>
     </div>
   );
