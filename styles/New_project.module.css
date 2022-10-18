@@ -1,0 +1,19 @@
+.new_project_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.new_project_container .content {
+  max-width: 85vw;
+  width: 24.4rem;
+}
+
+.new_project_container h1 {
+  margin-bottom: 0.5rem;
+}
+
+.new_project_container p {
+  color: #7b7b7b;
+}
