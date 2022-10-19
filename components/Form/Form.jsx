@@ -18,10 +18,8 @@ export default function Form() {
     })
       .then((res) => res.json())
       .then((data) => setCategories(data))
-      .catch((err) => {
-        console.log(err);
-      });
-  });
+      .catch((err) => console.log(err));
+  }, []);
 
   return (
     <form className={styles.form}>
